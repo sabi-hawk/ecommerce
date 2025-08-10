@@ -55,6 +55,7 @@
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install": "npm install --legacy-peer-deps",
     "server": "node ./api/server.js",
     "client": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
