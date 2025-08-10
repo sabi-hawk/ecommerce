@@ -24,7 +24,7 @@ This project contains a responsive Product Card UI implementation for the Fronte
 ## 🚀 Demo Access
 
 - **Local Demo**: Navigate to `/product-cards` route after starting the application
-- **Live Demo**: [Vercel Deployment Link - Coming Soon]
+- **Live Demo**: [Netlify Deployment](https://ecommerce-514.netlify.app/)
 
 ## 🛠️ Technical Implementation
 
@@ -78,3 +78,22 @@ To view the Product Card demo that was created for this assessment:
 1. Start the application with `npm start`
 2. Navigate to `http://localhost:3000/product-cards`
 3. View the responsive product cards with variant selection and stock management
+
+## 🚀 Deployment
+
+This project is deployed on **Netlify** with the following configuration:
+
+- **Build Command**: `npm run build`
+- **Publish Directory**: `build`
+- **Node.js Version**: 18.18.0 (specified in `.nvmrc`)
+- **SPA Routing**: Configured with redirects for React Router
+
+### Deployment URL
+**Live Demo**: [https://ecommerce-514.netlify.app/](https://ecommerce-514.netlify.app/)
+
+### Key Features Working in Production
+- ✅ Responsive Product Card UI
+- ✅ Variant selection with stock management
+- ✅ Add to Cart functionality
+- ✅ Mobile-first responsive design
+- ✅ Cross-browser compatibility
