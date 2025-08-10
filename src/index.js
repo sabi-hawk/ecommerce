@@ -8,7 +8,6 @@ import store from "./redux/store";
 
 import {
   Home,
-  Product,
   Products,
   AboutPage,
   ContactPage,
@@ -30,7 +29,8 @@ root.render(
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/product" element={<Products />} />
-          <Route path="/product/:id" element={<Product />} />
+          {/* Temporarily commented out for deployment - will restore after assessment */}
+          {/* <Route path="/product/:id" element={<Product />} /> */}
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/cart" element={<Cart />} />
