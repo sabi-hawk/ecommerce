@@ -96,18 +96,6 @@ const ProductCardDemo = () => {
             </div>
           ))}
         </div>
-
-        <div className="mt-5 p-4 bg-light rounded">
-          <h3 className="h5 mb-3">Layout Approach & Responsiveness</h3>
-          <p className="mb-2">
-            <strong>Layout Approach:</strong> Used CSS Flexbox for consistent card heights and content distribution, 
-            with a clean card-based design featuring hover animations and visual hierarchy through typography and spacing.
-          </p>
-          <p className="mb-0">
-            <strong>Responsiveness:</strong> Implemented mobile-first responsive design with Bootstrap grid system 
-            (3 columns on desktop, 2 on tablet, 1 on mobile) and adaptive component sizing for optimal viewing across all devices.
-          </p>
-        </div>
       </div>
     </div>
   );
